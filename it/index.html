@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Francesco Pio De Dominicis — AI Engineer</title>
+  <meta name="description" content="Generative AI engineer e studente magistrale al Politecnico di Torino, appassionato di inferenza locale e di progetti che contano davvero.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <link rel="canonical" href="https://frankydedo.github.io/it/">
+  <link rel="alternate" hreflang="en" href="https://frankydedo.github.io/">
+  <link rel="alternate" hreflang="it" href="https://frankydedo.github.io/it/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Francesco Pio De Dominicis — AI Engineer">
+  <meta property="og:description" content="Generative AI engineer appassionato di inferenza locale e di progetti che contano davvero.">
+  <meta property="og:url" content="https://frankydedo.github.io/it/">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Vai al contenuto</a>
+
+  <div class="nav-wrap container">
+    <nav class="nav glass glass--thin" aria-label="Principale">
+      <a class="nav__brand" href="#top"><span class="long">Francesco Pio De Dominicis</span><span class="short">F. P. De Dominicis</span></a>
+      <div class="nav__links">
+        <a href="#work">Progetti</a>
+        <a href="#experience">Esperienza</a>
+        <a href="#education">Formazione</a>
+        <a href="#toolkit">Toolkit</a>
+        <a href="#contact">Contatti</a>
+      </div>
+      <div class="nav__actions">
+        <div class="lang" aria-label="Lingua">
+          <a href="../" hreflang="en" lang="en">EN</a>
+          <a href="./" aria-current="true" hreflang="it" lang="it">IT</a>
+        </div>
+        <a class="btn btn--primary btn--small" href="../assets/Francesco-Pio-De-Dominicis-CV.pdf" download><span class="long">Scarica </span>CV</a>
+      </div>
+    </nav>
+  </div>
+
+  <main id="main">
+    <!-- Hero -->
+    <header class="hero container" id="top">
+      <p class="status glass glass--thin"><span class="status__dot" aria-hidden="true"></span>Laurea magistrale a dicembre 2026 · Aperto a ruoli in ambito AI</p>
+      <p class="hero__name">Francesco Pio De Dominicis</p>
+      <h1 class="hero__title gradient-text">Modelli locali.<br>Impatto reale.</h1>
+      <p class="hero__lead">Generative AI engineer e studente magistrale al Politecnico di Torino. Appassionato di inferenza locale e di progetti che contano davvero.</p>
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="#work">Guarda i progetti</a>
+        <a class="btn btn--glass glass" href="../assets/Francesco-Pio-De-Dominicis-CV.pdf" download>Scarica il CV</a>
+      </div>
+      <div class="stats glass">
+        <div class="stat"><span class="stat__value">Dic 2026</span><span class="stat__label">Laurea magistrale · PoliTo</span></div>
+        <div class="stat"><span class="stat__value">10+</span><span class="stat__label">progetti su GitHub</span></div>
+        <div class="stat"><span class="stat__value">Agents → Edge</span><span class="stat__label">da LangGraph a MLX</span></div>
+      </div>
+    </header>
+
+    <!-- In evidenza -->
+    <section class="section container" id="work" aria-labelledby="featured-title">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow gradient-text">In evidenza · Tesi magistrale</p>
+          <h2 class="headline" id="featured-title">GroundOne.</h2>
+        </div>
+      </div>
+      <article class="featured glass">
+        <div class="featured__body">
+          <h3 class="featured__title gradient-text">Questa risposta è davvero supportata dalle sue fonti?</h3>
+          <p class="featured__text">Un modello decisionale specializzato che verifica, frase per frase e in un solo forward pass, se una risposta RAG è supportata dalle fonti. Qwen2.5 (0.5B / 3B) con fine-tuning LoRA su MLX, eseguito interamente su Apple Silicon, con un’app nativa in SwiftUI.</p>
+          <ul class="tags" aria-label="Tecnologie">
+            <li class="tag">Qwen2.5</li><li class="tag">LoRA</li><li class="tag">MLX</li><li class="tag">RAG</li><li class="tag">SwiftUI</li>
+          </ul>
+          <a class="link" href="https://github.com/frankydedo/GroundOne" target="_blank" rel="noopener">Vedi su GitHub ↗</a>
+        </div>
+        <figure class="viz" aria-label="Esempio di verifica frase per frase">
+          <div class="viz__head"><span>groundone · verify</span><span>2 / 3 supportate</span></div>
+          <div class="claim claim--ok"><span>GroundOne fa fine-tuning di Qwen2.5 con LoRA.</span><span class="claim__badge">✓ Supportata</span></div>
+          <div class="claim claim--ok"><span>Gira interamente on-device su Apple Silicon.</span><span class="claim__badge">✓ Supportata</span></div>
+          <div class="claim claim--bad"><span>È stato addestrato su dieci miliardi di documenti.</span><span class="claim__badge">✕ Non supportata</span></div>
+          <figcaption class="viz__note">Esempio illustrativo</figcaption>
+        </figure>
+      </article>
+    </section>
+
+    <!-- Progetti -->
+    <section class="section container" aria-labelledby="projects-title">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow gradient-text">Progetti scelti</p>
+          <h2 class="headline" id="projects-title">Cose che ho costruito.</h2>
+        </div>
+        <a class="link" href="https://github.com/frankydedo?tab=repositories" target="_blank" rel="noopener">Tutti i repository ↗</a>
+      </div>
+      <div class="grid">
+        <a class="card glass" href="https://github.com/frankydedo/Tempra" target="_blank" rel="noopener">
+          <div class="card__top"><span class="card__kicker">macOS · AI on-device</span><span class="card__arrow" aria-hidden="true">↗</span></div>
+          <h3 class="card__title">Tempra</h3>
+          <p class="card__text">Monitor nella barra dei menu per i parametri vitali del Mac, con previsioni on-device basate su Mistral Timestral.</p>
+          <ul class="tags"><li class="tag">Swift</li><li class="tag">SwiftUI</li><li class="tag">Forecasting</li></ul>
+        </a>
+        <a class="card glass" href="https://github.com/frankydedo/travel-assistant" target="_blank" rel="noopener">
+          <div class="card__top"><span class="card__kicker">Agente LLM</span><span class="card__arrow" aria-hidden="true">↗</span></div>
+          <h3 class="card__title">Travel Assistant</h3>
+          <p class="card__text">Assistente conversazionale per viaggi personalizzati: l’LLM capisce e spiega, il codice decide e garantisce.</p>
+          <ul class="tags"><li class="tag">Python</li><li class="tag">LLM</li><li class="tag">Tool use</li></ul>
+        </a>
+        <a class="card glass" href="https://github.com/frankydedo/Hierarchical-Coarse-to-Fine-Concept-Bottleneck-Models" target="_blank" rel="noopener">
+          <div class="card__top"><span class="card__kicker">Explainable AI</span><span class="card__arrow" aria-hidden="true">↗</span></div>
+          <h3 class="card__title">Hierarchical CBMs</h3>
+          <p class="card__text">Concept Bottleneck Model coarse-to-fine con concetti generati da LLM e gating per superclassi su CIFAR-100.</p>
+          <ul class="tags"><li class="tag">PyTorch</li><li class="tag">XAI</li><li class="tag">Concetti LLM</li></ul>
+        </a>
+        <a class="card glass" href="https://github.com/frankydedo/Inherently-Interpretable-SER" target="_blank" rel="noopener">
+          <div class="card__top"><span class="card__kicker">Explainable AI</span><span class="card__arrow" aria-hidden="true">↗</span></div>
+          <h3 class="card__title">Interpretable SER</h3>
+          <p class="card__text">Riconoscimento delle emozioni dal parlato che spiega le proprie predizioni tramite Concept Bottleneck Models.</p>
+          <ul class="tags"><li class="tag">PyTorch</li><li class="tag">Audio</li><li class="tag">XAI</li></ul>
+        </a>
+        <a class="card glass" href="https://github.com/frankydedo/MaskArchitectureAnomaly_CourseProject" target="_blank" rel="noopener">
+          <div class="card__top"><span class="card__kicker">Computer Vision</span><span class="card__arrow" aria-hidden="true">↗</span></div>
+          <h3 class="card__title">Road Anomaly Segmentation</h3>
+          <p class="card__text">Segmentazione open-world per la guida autonoma con Mask2Former (EoMT) e Outlier Exposure.</p>
+          <ul class="tags"><li class="tag">PyTorch</li><li class="tag">Transformers</li><li class="tag">OOD</li></ul>
+        </a>
+        <a class="card glass" href="https://github.com/frankydedo/Ruggine" target="_blank" rel="noopener">
+          <div class="card__top"><span class="card__kicker">Sistemi · Rust</span><span class="card__arrow" aria-hidden="true">↗</span></div>
+          <h3 class="card__title">Ruggine</h3>
+          <p class="card__text">Chat stateful su Tokio: streaming gRPC su HTTP/2, storico in PostgreSQL, cache Sled, TLS 1.3 e Argon2.</p>
+          <ul class="tags"><li class="tag">Rust</li><li class="tag">gRPC</li><li class="tag">PostgreSQL</li></ul>
+        </a>
+      </div>
+    </section>
+
+    <!-- Toolkit -->
+    <section class="section container toolkit" id="toolkit" aria-labelledby="toolkit-title">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow gradient-text">Toolkit</p>
+          <h2 class="headline headline--sm" id="toolkit-title">Gli strumenti che uso.</h2>
+        </div>
+      </div>
+      <ul class="tags">
+        <li class="tag">Python</li><li class="tag">PyTorch</li><li class="tag">LangChain</li><li class="tag">LangGraph</li><li class="tag">RAG</li><li class="tag">Azure OpenAI</li><li class="tag">MLX</li><li class="tag">Ollama</li><li class="tag">Rust</li><li class="tag">Swift</li><li class="tag">Kotlin</li><li class="tag">TypeScript</li><li class="tag">Docker</li><li class="tag">Kubernetes</li><li class="tag">Kafka</li><li class="tag">PostgreSQL</li>
+      </ul>
+    </section>
+
+    <!-- Esperienza -->
+    <section class="section container" id="experience" aria-labelledby="experience-title">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow gradient-text">Esperienza</p>
+          <h2 class="headline" id="experience-title">Dove ho lavorato.</h2>
+        </div>
+      </div>
+      <ol class="timeline glass">
+        <li class="entry">
+          <span class="entry__period">Mar 2026 — Oggi</span>
+          <div>
+            <h3 class="entry__role">Generative AI Engineer · Stage <span class="now">● Ora</span></h3>
+            <p class="entry__org">Accenture · Torino</p>
+            <p class="entry__text">Workflow multi-agente in LangGraph (pattern supervisor / router, tool calling) e RAG su documentazione aziendale, in produzione su Azure OpenAI con valutazione e guardrail.</p>
+          </div>
+        </li>
+        <li class="entry">
+          <span class="entry__period">Giu — Ago 2024</span>
+          <div>
+            <h3 class="entry__role">Software Engineer · Stage</h3>
+            <p class="entry__org">Youbiquo · Cava de’ Tirreni</p>
+            <p class="entry__text">App Flutter integrata con OpenRMF per teleoperazione in tempo reale, telemetria e invio di comandi a flotte di robot eterogenee.</p>
+          </div>
+        </li>
+        <li class="entry">
+          <span class="entry__period">2017 — Oggi</span>
+          <div>
+            <h3 class="entry__role">Arbitro di calcio</h3>
+            <p class="entry__org">AIA · FIGC</p>
+            <p class="entry__text">Decisioni in una frazione di secondo sotto pressione, comunicazione chiara con gli assistenti.</p>
+          </div>
+        </li>
+      </ol>
+
+      <h3 class="subhead" id="education">Formazione</h3>
+      <ol class="timeline glass">
+        <li class="entry">
+          <span class="entry__period">2024 — Dic 2026</span>
+          <div>
+            <h3 class="entry__role">Politecnico di Torino</h3>
+            <p class="entry__org">Laurea magistrale in Ingegneria Informatica · AI &amp; Data Analysis</p>
+            <p class="entry__text">Tesi: <a href="https://github.com/frankydedo/GroundOne" target="_blank" rel="noopener">GroundOne</a> — verifica del grounding frase per frase per sistemi RAG.</p>
+          </div>
+        </li>
+        <li class="entry">
+          <span class="entry__period">2021 — 2024</span>
+          <div>
+            <h3 class="entry__role">Università degli Studi di Salerno</h3>
+            <p class="entry__org">Laurea triennale in Ingegneria Informatica · 109/110</p>
+            <p class="entry__text">Tesi: <a href="https://github.com/frankydedo/ROAM" target="_blank" rel="noopener">ROAM</a> — controllo cross-platform di flotte di robot eterogenee.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Contatti -->
+    <section class="section container" id="contact" aria-labelledby="contact-title">
+      <div class="cta glass glass--thick">
+        <h2 class="cta__title gradient-text" id="contact-title">Costruiamo qualcosa<br>di solido.</h2>
+        <p class="cta__lead">Aperto a ruoli in ambito AI engineering · Torino</p>
+        <div class="cta__actions">
+          <a class="btn btn--primary" href="mailto:fpdedomi@gmail.com">fpdedomi@gmail.com</a>
+          <a class="btn btn--glass glass" href="https://www.linkedin.com/in/francesco-pio-de-dominicis/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn btn--glass glass" href="https://github.com/frankydedo" target="_blank" rel="noopener">GitHub</a>
+          <a class="link" href="../assets/Francesco-Pio-De-Dominicis-CV.pdf" download>Scarica il CV ↓</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner container">
+      <span>© 2026 Francesco Pio De Dominicis</span>
+      <span>HTML + CSS · GitHub Pages</span>
+      <span><a href="../">EN</a> · <a href="./" aria-current="true">IT</a></span>
+    </div>
+  </footer>
+</body>
+</html>
